@@ -1,8 +1,18 @@
-Want to go even more “high-tech”?
+# 🔐 Secure Password Analyzer
 
-Next upgrades you can add:
+A Java-based tool to evaluate password strength using multiple security rules.
 
-GUI using JavaFX
-REST API using Spring Boot
-Store breached passwords using API
-Add hashing (like SHA-256)
+## Features
+- Length validation
+- Uppercase, lowercase, digits, special characters
+- Entropy-based strength scoring
+- Common password detection
+
+## Tech Stack
+- Java
+- OOP Principles
+
+## How to Run
+```bash
+javac PasswordAnalyzer.java
+java PasswordAnalyzer
